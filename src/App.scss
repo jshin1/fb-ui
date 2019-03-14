@@ -1,0 +1,51 @@
+//////////////////////////////////// GENERAL ////////////////////////////////
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background: skyblue;
+}
+
+
+////////////////////////////////////// NAVBAR ///////////////////////////////
+
+.navbar {
+  background: #4267b2;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: .75rem 20vw;
+  align-items: center;
+
+  span {
+    color: #29487d;
+    font-weight: 300;
+    margin: 0 1rem;
+  }
+
+  .one {
+    display: flex;
+    align-items: center;
+
+    .searchbar input {
+      width: 30rem;
+    }
+  }
+
+  #icon {
+    color: #29487d;
+    font-size: 2rem;
+    margin: .5rem;
+  }
+}
