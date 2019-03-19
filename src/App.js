@@ -17,7 +17,8 @@ class App extends Component {
         <NavBar />
         <div className='main'>
           <Home />
-          
+          {'[news feed, messenger, watch, marketplace, etc]'}
+          Ads / stories / events
         </div>
         <Messenger faker={faker}/>
       </div>
