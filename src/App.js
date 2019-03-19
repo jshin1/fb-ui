@@ -7,7 +7,7 @@ import Home from './containers/Home';
 import Messenger from './components/Messenger'
 
 const faker = require('faker')
-const name = faker.name.findName();
+// const name = faker.name.findName();
 
 class App extends Component {
 
@@ -17,7 +17,7 @@ class App extends Component {
         <NavBar />
         <div className='main'>
           <Home />
-
+          
         </div>
         <Messenger faker={faker}/>
       </div>

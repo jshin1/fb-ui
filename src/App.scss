@@ -85,3 +85,15 @@ body {
     border-radius: 50%;
   }
 }
+
+//////////////////////////////// HOME //////////////////////////////////////
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: purple;
+  z-index: 99;
+}

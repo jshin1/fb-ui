@@ -9,7 +9,7 @@ class Messenger extends Component {
     for(let i=0;i<25;i++) {
       users.push(
         <div className='user'>
-          <img className='m-avatar' src={this.props.faker.image.image()} />
+          <img className='m-avatar' src={this.props.faker.image.image()} alt={this.props.faker.name.firstName} />
           {this.props.faker.name.firstName() + ' ' + this.props.faker.name.lastName()}
         </div>)
     }
